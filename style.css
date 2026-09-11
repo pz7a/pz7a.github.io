@@ -16,6 +16,9 @@ html { box-sizing: border-box; scroll-behavior: smooth; }
 body {
 	background-color: var(--bg);
 	color: var(--fg);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	max-width: 60ch;
 	margin-inline: auto;
 	min-block-size: 100vh;
